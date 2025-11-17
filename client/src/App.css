@@ -1,0 +1,118 @@
+/*
+I know the guidelines suggested a component library, but I didn't like it.
+I much prefer writing things manually with plain CSS.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", "Courier New", Courier, monospace;
+}
+
+/*
+I was thinking of marshmallows when I was doing the CSS so I worked with a Marshmallow-inspired color palette.
+*/
+
+body {
+  background-color: #fff8f0; /* Creamy White */
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-container h1 {
+  text-align: center;
+}
+
+.post-list {
+  margin-top: 2rem;
+}
+
+.post-item {
+  background-color: #ffd3e2; /* Soft Pink */
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.post-form {
+  background-color: #ffd3e2; /* Soft Pink */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #e0cfff; /* Light Lavender */
+}
+
+.submit-button {
+  background-color: #ffcba4; /* Warm Peach */
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #cfffe0; /* Pale Mint */
+}
+
+.edit-button {
+  margin-right: 0.5rem;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #e0cfff; /* Light Lavender */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #cfffe0; /* Pale Mint */
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cancel-button {
+  background-color: #f0f0f0; /* A neutral gray */
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
