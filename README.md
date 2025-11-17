@@ -4,14 +4,14 @@ A simple blog application built with the MERN stack (MongoDB, Express, React, No
 
 ## Features
 
-*   Create, Read, Update, and Delete blog posts.
-*   Custom marshmallow-inspired styling with plain CSS.
-*   Modern ECMAScript Module syntax on both client and server.
+- Create, Read, Update, and Delete blog posts.
+- Custom marshmallow-inspired styling with plain CSS.
+- Modern ECMAScript Module syntax on both client and server.
 
 ## Prerequisites
 
-*   [Node.js](https://nodejs.org/) (v16 or later recommended)
-*   [MongoDB](https://www.mongodb.com/try/download/community) (a local instance or a cloud-hosted one like MongoDB Atlas)
+- [Node.js](https://nodejs.org/) (v16 or later recommended)
+- [MongoDB](https://www.mongodb.com/try/download/community) (a local instance or a cloud-hosted one like MongoDB Atlas)
 
 ## How to Run
 
@@ -20,7 +20,7 @@ A simple blog application built with the MERN stack (MongoDB, Express, React, No
 Clone this project to your local machine.
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/CrisMedL/posts-app.git
 cd posts-app
 ```
 
@@ -63,4 +63,4 @@ Start the React development server:
 npm start
 ```
 
-The application will open automatically in your browser at `http://localhost:3000`.
+The application will tell you the port it's running on.
